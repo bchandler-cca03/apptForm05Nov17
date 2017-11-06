@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/site.css">
+    <title>Appt Form Example</title>
+</head>
+
+<body>
+
+    <!-- Start Video at minute 1 hour and 20 minutes -->
+
+    <form action="http://formreflector.azurewebsites.net/form-reflector/" method="post">
+        <fieldset>
+            <legend>Doctor Zhivago's Appt. Request</legend>
+
+            <div>
+                <label for="patientName">Patient Name: </label>
+                <input type="text" id="patientName" name="pName">
+            </div>
+            <div>
+                <label for="patientPhone">Patient Phone: </label>
+                <input type="phone" id="patientPhone" name="pPhone">
+            </div>
+            <div>
+                <label for="patientEmail">Patient Email: </label>
+                <input type="email" id="patientEmail" name="pEmail">
+            </div>
+            <div>
+                <label for="apptDate">Appointment Date </label>
+                <input type="date" id="apptDate" name="aDate">
+            </div>
+            <div>
+                    <label for="apptTime">Appointment Time </label>
+                    <input type="time" id="apptTime" name="aTime">
+                </div>
+            <div>
+                <br>
+                <p>And we are taking a Patient Poll ... this week ...</p>
+                <label for="likesBob">Do you Like Bob?</label>
+                <input type="checkbox" id="likesBob" name="iLikeBob">
+            </div>
+
+
+            <div class="button">
+                <button type="submit">Submit</button>
+            </div>
+            <div class="button">
+                <button type="reset">Make Me Mad!</button>
+            </div>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
